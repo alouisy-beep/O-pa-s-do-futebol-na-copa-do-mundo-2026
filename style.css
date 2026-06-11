@@ -1,0 +1,111 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+    line-height: 1.7;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #009c3b;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Subtítulo */
+h2 {
+    text-align: center;
+    color: #ffdf00;
+    background-color: #002776;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+/* Parágrafos */
+p {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #009c3b;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Imagem */
+img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    margin: 25px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Link */
+a {
+    display: inline-block;
+    margin: 15px 0;
+    text-decoration: none;
+    background-color: #009c3b;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #006b28;
+    transform: scale(1.05);
+}
+
+/* Listas */
+ol, ul {
+    background: white;
+    padding: 25px 40px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+/* Lista ordenada */
+ol {
+    border-left: 5px solid #ffdf00;
+}
+
+/* Lista não ordenada */
+ul {
+    border-left: 5px solid #002776;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    body {
+        padding: 15px;
+    }
+}
